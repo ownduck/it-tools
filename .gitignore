@@ -36,3 +36,6 @@ salt
 
 package-lock.json
 *.zip
+*.tar
+*.tar.gz
+*.tgz
