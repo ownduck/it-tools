@@ -24,4 +24,6 @@ app.use(router);
 app.use(naive);
 app.use(plausible);
 
+localStorage.setItem('locale', 'zh');
+
 app.mount('#app');

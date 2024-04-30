@@ -88,6 +88,7 @@ declare module 'vue' {
     IbanValidatorAndParser: typeof import('./src/tools/iban-validator-and-parser/iban-validator-and-parser.vue')['default']
     'IconMdi:brushVariant': typeof import('~icons/mdi/brush-variant')['default']
     'IconMdi:kettleSteamOutline': typeof import('~icons/mdi/kettle-steam-outline')['default']
+    IconMdiArrowDown: typeof import('~icons/mdi/arrow-down')['default']
     IconMdiChevronDown: typeof import('~icons/mdi/chevron-down')['default']
     IconMdiChevronRight: typeof import('~icons/mdi/chevron-right')['default']
     IconMdiClose: typeof import('~icons/mdi/close')['default']
