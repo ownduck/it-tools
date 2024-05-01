@@ -1,5 +1,6 @@
 #!/bin/bash
-if [ -n "`nvm list|grep 18.`" ]; then
-  nvm current|grep v18 || (nvm use 18.14.2 && sleep 2)
+nodeV=`nvm list|grep -E '\s+18\.'`
+if [ -n "${nodeV}" ]; then
+  nvm current|grep -E '\s+18\.' || (nvm use $nodeV && sleep 2)
 fi
 npm run dev
